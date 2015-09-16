@@ -9,7 +9,14 @@
         $(function () {
             $('.logo').find('img').on('click', function () {
                 $(this).rotate();//可以实现 X  Y  Z轴旋转
+            });
+
+            //Q3 点击logo实现页面所有图片翻转
+
+            $('.logo').find('img').on('click', function () {
+                $('img').rotate();
             })
+             
         })
     </script>
 </head>
