@@ -12,7 +12,7 @@
 *       ....
 *       注释：需求解答
 *       1  通过rotate这个api实现任意tag类型 添加 3D旋转 动画效果(围绕 X or Y or Z轴)
-*       2  通过removeRotate 这个api 移除动画
+*       2  通过addRotateOnOff 这个api 添加移除动画标志
 *
 * */
 function IQuery(iArg) {
