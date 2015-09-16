@@ -1,0 +1,25 @@
+p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    border: solid 1px #0CC;
+    border-radius:4px ;
+    width: 20%;
+    padding: 10px;
+    color: #099;
+    text-indent: 2em;
+    font: 14px/20px "微软雅黑";
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+p:hover{
+    box-shadow: 0 0 4px  #0CC;
+}

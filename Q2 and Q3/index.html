@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/iQuery.js"></script>
+    <link href="css/css.css" rel="stylesheet" />
+    <script>
+        $(function () {
+            $('.logo').find('img').on('click', function () {
+                $(this).rotate();//可以实现 X  Y  Z轴旋转
+            })
+        })
+    </script>
+</head>
+<body>
+<p>
+    答案请看imgs文件截图，通过rotate方法使各种标签进行3D旋转，通过addRotateOnOff方法给要取消动画的元素添加标志
+</p>
+<div class="logo">
+    <img src="imgs/logo.png">
+</div>
+</body>
+</html>
